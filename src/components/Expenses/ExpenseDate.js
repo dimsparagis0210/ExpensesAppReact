@@ -12,6 +12,7 @@ const ExpenseDate = (props) => {
             <div className='expense-date__month'>{month}</div>
             <div className='expense-date__year'>{year}</div>
             <div className='expense-date__day'>{day}</div>
+            <div></div>
         </div>
     );
 };
