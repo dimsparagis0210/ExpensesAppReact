@@ -16,8 +16,6 @@ function Expenses(props) {
         return expense.date.getFullYear().toString() === year
     });
 
-
-
     return(
         <li>
             <Card className="expenses">
